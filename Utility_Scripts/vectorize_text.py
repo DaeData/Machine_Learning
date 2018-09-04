@@ -58,7 +58,7 @@ for name, from_person in [("sara", from_sara), ("chris", from_chris)]:
             ### append a 0 to from_data if email is from Sara, and 1 if email is from Chris
        
         text = parseOutText(email)
-        text = text.replace('sara', '').replace('shackleton','').replace('chris','').replace('germani','')
+        text = text.replace('sara', '').replace('shackleton','').replace('chris','').replace('germani','').replace('sshacklensf','').replace('cgermannsf','')
         word_data.append(text)
 
         
